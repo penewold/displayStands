@@ -1,0 +1,8 @@
+name: displayStands
+version: '${project.version}'
+main: org.qverzey.displaystands.DisplayStands
+api-version: '1.21'
+commands:
+  displaystand:
+    description: turns the requested armor stand into a display armor stand. Provide the uuid of the armor stand
+    usage: /<command> <armor stand uuid>
